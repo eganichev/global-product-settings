@@ -1,5 +1,8 @@
 {
   "name": "global-product-settings",
+  "engines": {
+    "node": "22.14.0"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +15,17 @@
     "prettier-fix": "prettier --write ."
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
     "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "devDependencies": {
