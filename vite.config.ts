@@ -9,6 +9,6 @@ export default defineConfig({
     host: true,
     port: 3000,
     strictPort: true,
-    allowedHosts: ['global-product-settings.onrender.com'],
+    allowedHosts: ['global-product-settings.vercel.app'],
   },
 });
